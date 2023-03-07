@@ -1,0 +1,36 @@
+{
+  "name": "hexo-chatgpt-summary",
+  "version": "0.0.2",
+  "description": "A Hexo plugin that can use chatGPT generate summaries for blog posts.",
+  "main": "dist/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsup index.ts --format cjs",
+    "watch": "tsup index.ts --format cjs --watch"
+  },
+  "keywords": [
+    "ai",
+    "chatGPT",
+    "hexo-plugin",
+    "hexo"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "author": "kaho",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/hexo": "^3.8.8",
+    "@types/jsonfile": "^6.1.1",
+    "eslint": "^8.35.0",
+    "eslint-config-kaho": "^0.9.5",
+    "hexo": "^6.3.0",
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "chatgpt-api-cjs": "^5.0.15",
+    "isomorphic-fetch": "^3.0.0",
+    "jsonfile": "^6.1.0"
+  }
+}
