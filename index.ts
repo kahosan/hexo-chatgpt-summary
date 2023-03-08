@@ -55,6 +55,7 @@ if (config.enable) {
           summary: newSummary.text
         };
 
+        console.info(`${postTitle} 生成成功`);
         addPostSummary(content);
       }
     }
