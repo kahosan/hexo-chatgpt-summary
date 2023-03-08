@@ -74,6 +74,6 @@ chatgpt_summary:
 
 同时欢迎提 issue 和 pr
 
-## Lincense
+## License
 
 MIT
